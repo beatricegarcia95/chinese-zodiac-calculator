@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Zodiac Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Chinese Zodiac Calculator</h1>
+        <div class="input-group">
+            <label for="birth-year">Enter your birth year:</label>
+            <input type="number" id="birth-year" min="1900" max="2100">
+        </div>
+        <div class="input-group">
+            <label for="birth-month">Enter your birth month:</label>
+            <input type="number" id="birth-month" min="1" max="12">
+        </div>
+        <div class="input-group">
+            <label for="birth-day">Enter your birth day:</label>
+            <input type="number" id="birth-day" min="1" max="31">
+        </div>
+        <button id="calculate">Calculate</button>
+        <div id="result" class="hidden">
+            <h2>Your Chinese Zodiac is:</h2>
+            <p id="zodiac-sign"></p>
+            <img id="zodiac-image" src="" alt="Zodiac Animal">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
