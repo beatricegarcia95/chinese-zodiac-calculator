@@ -11,16 +11,16 @@
     <div class="container">
         <h1>Chinese Zodiac Calculator</h1>
         <div class="input-group">
-            <label for="birth-year">Enter your birth year:</label>
-            <input type="number" id="birth-year" min="1900" max="2100">
+            <input type="number" id="birth-year" min="1900" max="2100" required placeholder=" ">
+            <label for="birth-year">Birth Year</label>
         </div>
         <div class="input-group">
-            <label for="birth-month">Enter your birth month:</label>
-            <input type="number" id="birth-month" min="1" max="12">
+            <input type="number" id="birth-month" min="1" max="12" required placeholder=" ">
+            <label for="birth-month">Birth Month</label>
         </div>
         <div class="input-group">
-            <label for="birth-day">Enter your birth day:</label>
-            <input type="number" id="birth-day" min="1" max="31">
+            <input type="number" id="birth-day" min="1" max="31" required placeholder=" ">
+            <label for="birth-day">Birth Day</label>
         </div>
         <button id="calculate">Calculate</button>
         <div id="result" class="hidden">
